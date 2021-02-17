@@ -1,0 +1,389 @@
+@charset "UTF-8";
+html, body {
+  font-family: "avenir",Arial,Helvetica,sans-serif;
+　 color: #2b2c34;
+}
+/*
+General
+*/
+.heading {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  margin: 0 15px;
+}
+.heading h1 {
+  font-size: 2rem;
+  font-weight: lighter;
+  margin: 3rem 0;
+}
+/*
+Button
+*/
+.btn {
+  border: 1px solid;
+  border-color: #2b2c34;
+  border-radius: 0px;
+  color:#2b2c34
+}
+.btn:hover {
+  opacity: 0.7;
+  color: #2b2c34;
+  border-color: #2b2c34;
+  transition: all .3s;
+}
+.btn-primary {
+  background-color: #fff!important;
+}
+.btn-lg {
+  width: 320px;;
+}
+.btn-secondary {
+  background-color: #3D6C97!important;
+  width: 400px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+}
+.btn-secondary:hover {
+  opacity: 0.7;
+  color: white;
+  transition: all .3s;
+}
+/*
+Navigation
+*/
+.bg-dark {
+  background-color: rgb(0,0,0,0)!important;
+}
+.navbar {
+  padding: 1.5rem 1rem!important;
+}
+.navbar-brand {
+    font-size: 20px;
+    padding: 0 1rem;
+    font-family: Georgia,'ヒラギノ明朝 Pro W3','Hiragino Mincho Pro','ＭＳ Ｐ明朝','MS PMincho',serif;
+    margin-right: 0px;
+}
+.nav-item {
+    font-family: 'ヒラギノ明朝 Pro W3','Hiragino Mincho Pro','ＭＳ Ｐ明朝','MS PMincho',serif;
+}
+.bg-white {
+  background-color: rgb(0,0,0,0.5)!important;
+  padding: .5rem 1rem!important;
+}
+/*
+Top Header
+*/
+.head {
+  background-image: url(../img/topimg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:rgba(0,63,84,0.5);
+  background-blend-mode:darken;
+  opacity: 0.8;
+  margin-bottom: 0;
+  margin-top: 0px;
+  min-height: 500px;
+}
+.top{
+  padding-top: 10rem;
+  text-align: left;
+  color: white;
+}
+.top h1 {
+    font-family: 'ヒラギノ明朝 Pro W3','Hiragino Mincho Pro','ＭＳ Ｐ明朝','MS PMincho',serif;
+    font-size: 2rem;
+}
+.top p {
+    font-family: Georgia,'ヒラギノ明朝 Pro W3','Hiragino Mincho Pro','ＭＳ Ｐ明朝','MS PMincho',serif;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+}
+.home {
+  padding-left: 0;
+}
+/*
+Service
+*/
+.service {
+    font-family: 'ヒラギノ明朝 Pro W3','Hiragino Mincho Pro','ＭＳ Ｐ明朝','MS PMincho',serif;
+    color: white;
+}
+.card {
+  border-radius: .25rem;
+  padding: 0px;
+  border-color: white;
+}
+.card-img-overlay{
+  font-weight: bold;
+  background-color: rgba(0, 63, 84, 0.3);
+  border-radius: .25rem;
+  max-width: 100%;
+  flex-shrink:0;
+}
+.service a {
+  color: white;
+  text-decoration: none;
+}
+.service a:hover {
+  opacity: 0.7;
+  color: white;
+  transition: all .3s;
+}
+.about-bg {
+  background-color: white;
+}
+.about-service {
+  color: #2b2c34;
+}
+.about-service span {
+  border-bottom: solid 2px #2b2c34;
+  padding-bottom: 4px;
+}
+/*
+about
+*/
+.about {
+  font-family: 'ヒラギノ明朝 Pro W3','Hiragino Mincho Pro','ＭＳ Ｐ明朝','MS PMincho',serif;
+  color: white;
+}
+.about .card-img {
+  background-size: contain;
+  max-height: 130px;
+  object-fit: cover;
+}
+.about a {
+  color: white;
+  text-decoration: none;
+}
+.about a:hover {
+  opacity: 0.7;
+  color: white;
+  transition: all .3s;
+}
+/*
+footer
+*/
+footer a{
+  color: #2b2c34;
+}
+footer a:hover {
+
+  color:#3D6C97;
+  transition: all .3s;
+}
+/*
+Service Page
+*/
+.service-head {
+  background-image: url(../img/servicetop.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:rgba(0,63,84,0.5);
+  background-blend-mode:darken;
+  margin-bottom: 0;
+  margin-top: 0;
+  min-height: 300px;
+}
+.service-list a {
+ font-family: 'ヒラギノ明朝 Pro W3','Hiragino Mincho Pro','ＭＳ Ｐ明朝','MS PMincho',serif;
+ color: white;
+}
+.service-list a:hover {
+  opacity: 0.7;
+  color: white;
+  transition: all .3s;
+}
+.service-list .card-img {
+  height: 150px;
+  object-fit: cover;
+}
+/* 5 Columns */
+.col-15, .col-sm-15, .col-md-15, .col-lg-15 {
+	position: relative;
+/*	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;*/
+	width: 100%;
+}
+
+@media (min-width: 768px) {
+.col-sm-15 {
+	width: 20%;
+	flex: 0 0 20%;
+}
+}
+
+@media (min-width: 992px) {
+.col-md-15 {
+	width: 20%;
+	flex: 0 0 20%;
+}
+}
+
+@media (min-width: 1200px) {
+.col-lg-15 {
+	width: 20%;
+	flex: 0 0 20%;
+}
+}
+/* Finish 5 Columns */
+.details h3 {
+   font-family: 'ヒラギノ明朝 Pro W3','Hiragino Mincho Pro','ＭＳ Ｐ明朝','MS PMincho',serif;
+   padding: 1rem 0;
+}
+.details .text {
+  padding: 2rem;
+}
+.details p {
+  font-size: 14px;
+}
+.details img {
+  max-width: 100%;
+}
+.details .img {
+  padding: 0;
+}
+/*
+About Page
+*/
+.about-head {
+  background-image: url(../img/company.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:rgba(0,63,84,0.5);
+  background-blend-mode:darken;
+  margin-bottom: 0;
+  margin-top: 0;
+  min-height: 300px;
+}
+.company {
+  margin-top: 5rem;
+  padding: 0 15%;
+}
+th {
+  font-weight: normal;
+}
+.japanese td, .japanese th {
+  padding-top: 2rem;
+  padding-bottom: 10px;
+}
+.english {
+  color: #6F6F6F;
+  font-size: .8rem;
+}
+.english td, .english th {
+  padding-top: 0px;
+}
+/*
+Contact Page
+*/
+.contact-nav {
+ background-color: rgb(0,0,0,0.5)!important;
+}
+.contact-head h1{
+  color: #2b2c34;
+  font-size: 40px;
+}
+.contact-text {
+  font-family: 'ヒラギノ明朝 Pro W3','Hiragino Mincho Pro','ＭＳ Ｐ明朝','MS PMincho',serif;
+}
+.contact-form {
+  margin-top: 3rem;
+  margin-bottom: 8rem;
+  padding: 0 5%;
+  width: 100%;
+}
+.contact-form th {
+  padding-top: 2rem;
+  text-align: right;
+}
+.contact-form td {
+  padding-top: 2rem;
+}
+.contact-form input, .contact-form textarea {
+  background-color: #EFF2F3;
+  border: none;
+  width: 80%;
+}
+/*
+Thanks Page
+*/
+.thanks {
+  min-height: 600px;
+  padding: 10rem 0;
+}
+.thanks h1 {
+  font-size: 30px;
+  margin: 2rem 0;
+  font-family: 'ヒラギノ明朝 Pro W3','Hiragino Mincho Pro','ＭＳ Ｐ明朝','MS PMincho',serif;
+}
+/*responsive*/
+@media (max-width: 576px) {
+  .navbar {
+    padding: .5rem 1rem!important;
+  }
+  .navbar-brand {
+    font-size: 15px;
+    padding: 0 0rem;
+    font-family: 'ヒラギノ明朝 Pro W3','Hiragino Mincho Pro','ＭＳ Ｐ明朝','MS PMincho',serif;
+    }
+  .jumbotron-fluid {
+    height: 100%;
+  }
+  .top {
+    padding-top: 7rem;
+    padding-bottom:5rem;
+  }
+  .top p:before {
+    display:none;
+  }
+  .home {
+    padding-left: 2rem;
+  }
+  .btn-lg {
+    max-width: 100%;
+  }
+  footer a {
+    font-size: 15px;
+  }
+  footer p{
+    font-size: 10px;
+  }
+  .about-head, .service-head {
+    min-height: 180px;
+  }
+  .service-list h3 {
+    font-size: 20px;
+   }
+  .table {
+    font-size: 15px;
+   }
+  .company {
+    margin-top: 3rem;
+    padding: 0 5%;
+   }
+  .contact-head h1{
+    font-size: 30px;
+   }
+  .contact-text {
+    padding: 1rem 0;
+  }
+  .contact-form th {
+    padding-top: 1rem;
+    text-align: left;
+    padding-left:10%;
+   }
+  .contact-form td {
+    padding-top: 1rem;
+    padding-left:10%;
+  }
+  .contact-form input, .contact-form textarea {
+    width: 90%;
+  }
+}
