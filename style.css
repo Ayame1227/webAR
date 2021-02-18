@@ -85,6 +85,7 @@ Top Header
   margin-bottom: 0;
   margin-top: 0px;
   min-height: 100px;
+  max-height: 110px;
 }
 .top{
   padding-top: 5rem;
